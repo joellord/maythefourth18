@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Ar Fun!</title>
+
+<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css"></head>
+<link rel="stylesheet" type="text/css" href="./css/styles.css"></head>
+<body>
+	<div id="container-fluid">
+
+	    <div class="webcam row">
+      		<video id="webcamFeed" width="500" height="375" preload autoplay loop muted></video>
+      		<canvas id="canvas" width="500" height="375"></canvas>     
+		</div>  
+
+		<div class="row text-center">
+			<div class="col-12 text-center">
+				<button type="button" id="chewie" class="btn btn-primary">Chewbacca</button>
+				<button type="button" id="darthvader" class="btn btn-secondary">Darth Vader</button>
+				<button type="button" id="yoda" class="btn btn-secondary">Yoda</button>
+			</div>
+
+		</div>
+	</div>
+
+	<script src="./js/tracking-min.js"></script>
+	<script src="./js/face-min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
